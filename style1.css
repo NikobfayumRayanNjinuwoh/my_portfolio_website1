@@ -1,0 +1,56 @@
+body{
+    background-color:rgb(59, 63, 63);
+}
+h1{
+    color: brown;
+}
+header{
+    color: brown;
+    font-size: 50px;
+
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    color: brown;
+    font-size: 19px;
+}
+.contianer{
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+.profile {
+    height: 200px;
+    width: 200px;
+    border: 200px;
+    border-radius: 90%;
+    display: flex;
+    
+}
+i{
+   height:auto;
+    width: 200px;
+    font-size:59px;
+    display:block
+}
+.navbar a{
+    text-align: justify  ;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+}
+.navbar a:hover{
+    background-color:brown;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: grey;
+}
+.navbar li{
+    float: left;
+}
