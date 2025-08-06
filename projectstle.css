@@ -1,0 +1,42 @@
+body{
+     background-color:rgb(59, 63, 63);
+}
+.navbar a{
+    text-align: justify  ;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+}
+.navbar a:hover{
+    background-color:brown;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: grey;
+    display: flex;
+    border-radius: 20px;
+}
+.navbar li{
+    float: left;
+}
+h3{
+    color:brown;
+    text-align: center;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.image1{
+    text-align: justify left;
+}
+.img{
+     size: 30px;
+}
+.container{
+     max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
