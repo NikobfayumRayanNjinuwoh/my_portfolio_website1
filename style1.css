@@ -1,4 +1,6 @@
 body{
+background: linear-gradient(to right, #000c0f, #0072ff);
+ color:rgb(7, 7, 7);
 }
 h1{
     color: brown;
@@ -33,6 +35,7 @@ i{
    height:auto;
     width: 200px;
     font-size:59px;
+    display:block, flex;
 }
 .navbar a{
     text-align: justify  ;
@@ -43,21 +46,28 @@ i{
     color: white;
 }
 .navbar a:hover{
+color: rgb(148, 143, 143);
+background: linear-gradient(to right, #000c0f, #0072ff);
+
+    
 }
 .navbar ul{
     list-style-type: none;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    background-color: rgb(7, 7, 7);
     display: flex;
     border-radius: 20px;
 }
 .navbar li{
     float: left;
+    display: flex;
 }
 .box{
     border: 20px;
     padding: 40px;
+}
 .card:hover .child {
   animation: pulse 1s ease;
 }
