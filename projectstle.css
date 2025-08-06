@@ -1,4 +1,6 @@
 body{
+background: linear-gradient(to right, #41344d, #8a0c8f);
+color: white;
 }
 .navbar a{
     text-align: justify  ;
@@ -9,12 +11,15 @@ body{
     color: white;
 }
 .navbar a:hover{
+background: linear-gradient(to right, #8e2de2, #4a00e0);
+color: white;
 }
 .navbar ul{
     list-style-type: none;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    background-color: rgb(10, 10, 10);
     display: flex;
     border-radius: 20px;
 }
@@ -22,6 +27,7 @@ body{
     float: left;
 }
 h3{
+    color:rgb(136, 128, 128);
     text-align: center;
    font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -35,3 +41,15 @@ h3{
      max-width: 800px;
     margin: 40px auto;
     text-align: center;
+.card:hover .child {
+  animation: pulse 1s ease;
+}
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.5s ease;
+}
+.fade-up:is(.visible) {
+  opacity: 1;
+  transform: translateY(0);
+}
