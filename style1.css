@@ -1,5 +1,4 @@
 body{
-    background-color:rgb(59, 63, 63);
 }
 h1{
     color: brown;
@@ -34,7 +33,6 @@ i{
    height:auto;
     width: 200px;
     font-size:59px;
-    display:block;
 }
 .navbar a{
     text-align: justify  ;
@@ -45,14 +43,12 @@ i{
     color: white;
 }
 .navbar a:hover{
-    background-color:brown;
 }
 .navbar ul{
     list-style-type: none;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    background-color: grey;
     display: flex;
     border-radius: 20px;
 }
@@ -62,4 +58,15 @@ i{
 .box{
     border: 20px;
     padding: 40px;
+.card:hover .child {
+  animation: pulse 1s ease;
+}
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.5s ease;
+}
+.fade-up:is(.visible) {
+  opacity: 1;
+  transform: translateY(0);
 }
