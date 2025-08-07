@@ -1,21 +1,21 @@
 body{
-background: linear-gradient(to right, #000c0f, #0072ff);
- color:rgb(7, 7, 7);
+background: linear-gradient(to right, #224197, #2b2423);
+color: white;
 }
 h1{
     color: brown;
 }
 h2{
-    color:black ;
+    color:rgb(233, 220, 220) ;
 }
 header{
-    color: brown;
+    color: rgb(185, 179, 179);;
     font-size: 20px;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 text-align: right;
 }
 p{
-    color: brown;
+    color: rgb(185, 179, 179);
     font-size: 19px;
 }
 .contianer{
@@ -24,18 +24,21 @@ p{
     text-align: center;
 }
 .profile {
-    height: 280px;
+    height: 2oo00px;
     width: 200px;
     border: 200px;
     border-radius: 90%;
     display: flex;
-    
+text-align: center;
 }
 i{
    height:auto;
     width: 200px;
     font-size:59px;
-    display:block, flex;
+    display:flex;
+}
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .navbar a{
     text-align: justify  ;
