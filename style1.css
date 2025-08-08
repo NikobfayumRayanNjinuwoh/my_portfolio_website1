@@ -54,12 +54,12 @@ color: white;
 
 }
 .navbar a{
-    text-align: justify  ;
-    display: block;
+    text-align:center;
+    display: flex;
     text-decoration: none;
     padding: 15px;
     border-radius: 20px;
-    color: white;
+    color: rgb(41, 40, 126);
 }
 .navbar a:hover{
 color: rgb(148, 143, 143);
@@ -100,7 +100,10 @@ background: linear-gradient(to right, #111830, #0072ff);
 }
 button{
     width: 100px;
-    border-radius: 30px;
-    height: 47px;
-    background-color: transparent;
+    border-radius: 12px;
+    height: 29px;
+    background-color: rgb(185, 179, 179);
+    border-color: #111830;
+    text-decoration-color: #111830;
+
 }
