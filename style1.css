@@ -1,5 +1,5 @@
 body{
-background: linear-gradient(to right, #224197, #2b2423);
+background: linear-gradient(to right, #224197, #000000);
 color: white;
 }
 h1{
@@ -7,16 +7,19 @@ h1{
 }
 h2{
     color:rgb(233, 220, 220) ;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
     color: rgb(185, 179, 179);;
     font-size: 20px;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-align: right;
 }
 p{
     color: rgb(185, 179, 179);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 19px;
+    text-align:justify left;
 }
 .contianer{
     max-width: 800px;
@@ -36,9 +39,19 @@ i{
     width: 200px;
     font-size:59px;
     display:flex;
+    float: left;
 }
 a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+fieldset{
+    border-radius: 3000px;
+    border-color: white;
+    height: 485px;
+    width: 40px;
+    background: linear-gradient(to right, #222029, #224197);
+color: white;
+
 }
 .navbar a{
     text-align: justify  ;
@@ -50,7 +63,7 @@ a{
 }
 .navbar a:hover{
 color: rgb(148, 143, 143);
-background: linear-gradient(to right, #000c0f, #0072ff);
+background: linear-gradient(to right, #111830, #0072ff);
 
     
 }
@@ -70,6 +83,8 @@ background: linear-gradient(to right, #000c0f, #0072ff);
 .box{
     border: 20px;
     padding: 40px;
+    display: block;
+    float: left;
 }
 .card:hover .child {
   animation: pulse 1s ease;
@@ -82,4 +97,10 @@ background: linear-gradient(to right, #000c0f, #0072ff);
 .fade-up:is(.visible) {
   opacity: 1;
   transform: translateY(0);
+}
+button{
+    width: 100px;
+    border-radius: 30px;
+    height: 47px;
+    background-color: transparent;
 }

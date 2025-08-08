@@ -6,6 +6,14 @@ body{
      background-repeat: no-repeat;
      background-position: center;
 }
+
+h1{
+    color: #0072ff;
+}
+p{
+    color:rgb(139, 136, 136);
+    
+}
 .navbar a{
     text-align: justify  ;
     display: block;
@@ -33,6 +41,7 @@ a{
 }
 .navbar li{
     float: left;
+    display: flex;
 }
 h3{
     color:rgb(139, 136, 136);
@@ -42,11 +51,18 @@ h3{
 .image1{
     text-align: justify left;
 }
-.img{
-     size: 30px;
+img{
+     size: 3px;
+     height: 300px;
+     width: 10o0px;
 }
 .container{
      max-width: 800px;
     margin: 40px auto;
     text-align: center;
+}
+.container2{
+    max-width: 700px;
+    margin: 20px;
+    text-align: left;
 }
