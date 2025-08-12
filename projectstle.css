@@ -66,3 +66,11 @@ img{
     margin: 20px;
     text-align: left;
 }
+button{
+    width: 100px;
+    border-radius: 12px;
+    height: 29px;
+    background-color: rgb(185, 179, 179);
+    border-color: #111830;
+    text-decoration-color: #111830;
+}

@@ -1,6 +1,7 @@
 body{
 background: linear-gradient(to right, #224197, #000000);
 color: white;
+display: flex;
 }
 h1{
     color: brown;
@@ -106,4 +107,40 @@ button{
     border-color: #111830;
     text-decoration-color: #111830;
 
+}
+
+#html{
+    border-radius: 12px;
+    background-color: #222029;
+    height: 100px;
+    width: 700px;
+    margin: 20px;
+border-color:red;
+}
+#css {
+    border-radius: 12px;
+    background-color: #222029;
+    position: left;
+     height: 100px;
+      width: 700px;
+    margin: 20px;
+border-color:red;
+
+}
+#js {
+    border-radius: 12px;
+    background-color: #222029;
+     height: 100px;
+      width: 700px;
+    margin: 20px;
+border-color:red;
+
+}
+#database {
+    border-radius: 12px;
+    background-color: #222029;
+     height: 100px;
+      width: 700px;
+    margin: 20px;
+border-color:red;
 }
